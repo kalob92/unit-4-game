@@ -1,0 +1,117 @@
+body {
+    background-image: url("../images/topography.png")
+}
+
+/* everything */
+.game {
+    margin: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* everything */
+
+/* Crystal Collector!---------- */
+.title-card {
+    background-color: #ffc87c;
+    width: 400px;
+    height: auto;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 2px;
+    font-size: 36px;
+    text-align: center;
+    margin: 12px 0px;
+}
+/* Crystal Collector!---------- */
+
+
+.instruction-box {
+    background-color: #ffe5b4;
+    width: 600px;
+    height: 450px;
+    color: #00a86b;
+    padding: 15px 2px;
+    margin: 2px 0px;
+}
+
+p {
+    padding: 15px 4px;
+}
+
+.random-number-box {
+    background-color: #34c08d;
+    font-size: 36px;
+    color: #8c6aad;
+    width: 310px;
+    height: 100px;
+    padding: 10px 0px 0px 5px;
+    margin: 8px 0px;
+}
+
+
+.winloss-box {
+    background-color: #00ffff;
+    color: #34c08d;
+    font-size: 20px;
+    width: 140px;
+    height: 100px;
+    margin: 8px 0px;
+    padding: 10px 0px 0px 5px;
+    position: absolute;
+    bottom: 95px;
+    left: 335px;
+}
+
+
+/* crystals----------------------------------------- */
+
+.crystals {
+    width: 600px;
+    height: auto;
+    margin: 10px 0px;
+}
+
+.crystal-one {
+    width: 130px;
+    border: solid 2px rgb(197, 197, 197);
+    margin: 0px 5px 0px 5px;
+}
+
+.crystal-two {
+    width: 130px;
+    border: solid 2px rgb(197, 197, 197);
+    margin: 0px 5px 0px 5px;
+}
+
+.crystal-three {
+    width: 130px;
+    border: solid 2px rgb(197, 197, 197);
+    margin: 0px 5px 0px 5px;
+}
+
+.crystal-four {
+    width: 130px;
+    border: solid 2px rgb(197, 197, 197);
+    margin: 0px 5px 0px 5px;
+}
+
+/* crystals----------------------------------------- */
+
+
+.green-textbox {
+    background-color: #00a86b;
+    color: #fff;
+    font-size: 18px;
+    width: 315px;
+    height: 30px;
+    padding: 5px 0px 5px 2px;
+}
+
+.green-scorebox {
+    background-color: #00a86b;
+    color: #fff;
+    font-size: 32px;
+    width: 310px;
+    height: 90px;
+    padding: 10px 0px 0px 5px;
+    margin: 8px 0px;
+}

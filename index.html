@@ -1,31 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
     <script src="assets/javascript/game.js"></script>
 </head>
 
 <body>
+    <div class="game">
     <h1 class="title-card">Crystal Collector!</h1>
 
     <div class="instruction-box">
         <p>You will be given a random number at the start of the game</p>
-        <p>There are four crystals below. By clicking on a crystal you will add a aspecific amount of points to your total score</p>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score</p>
+        <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <p>Each time when the game starts, the game will change the values of each crystal.</p>
     </div>
-    <!-- total-count-box will be green, float to the left or be the first column in the row, will hold total-count -->
-    <div class="total-count-box"><span id="total-count"></span></div>
 
-    <!-- score-box will be aqua, to the right of total-count-box, holds win-count and loss-count -->
+    <!-- random-number-box will be green, float to the left or be the first column in the row, will hold random-number -->
+    <div class="random-number-box">
+        <span id="random-number">0</span>
+    </div>
+
+    <!-- winloss-box will be aqua, to the right of total-count-box, holds win-count and loss-count -->
+    <div class="winloss-box">
+        <p>Wins: <span id="win-count">0</span></p>
+        <p>Losses: <span id="loss-count">0</span></p>
+    </div>
 
     <!-- four crystals here, they're buttons, holding random pictures and random values -->
+    <div class="crystals">
+        <img class="crystal-one" src="assets/images/1.jpg">
+        <img class="crystal-two" src="assets/images/2.jpg">
+        <img class="crystal-three" src="assets/images/3.jpg">
+        <img class="crystal-four" src="assets/images/4.jpg">
+    </div>
 
-    <!-- green box with text -->
+    <!-- green box with text, doesn't need anything special, just text -->
+    <div class="green-textbox"><p>Your total score is:</p></div>
 
     <!-- green box with total-score span -->
+    <div class="green-scorebox"><span id="total-score">0</span></div>
 
+
+    </div>
 </body>
 </html>
